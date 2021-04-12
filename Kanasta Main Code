@@ -1,0 +1,50 @@
+#card class to create each card, their number, point value, and image
+class Card:
+    def __init__(self, number, pointValue, image):
+        self.image = image
+        self.number = number
+        self.pointValue = None
+
+
+    @property
+    def number(self):
+        return self._number
+
+    @number.setter
+    def number(self, value):
+        self._number = value
+
+    @property
+    def pointValue(self):
+        return self._pointValue
+
+    @pointValue.setter
+    def pointValue(self, value):
+        self._pointValue = value
+
+    @property
+    def image(self):
+        return self._image
+
+    @image.setter
+    def image(self, value):
+        self._image = value
+
+#low cards are 4, 5 ,6 7
+class lowCard(Card):
+    def __init__(self, number, image):
+        super().__init__(number, image):
+        self.pointValue = 5
+
+#high cards are 8, 9 , 10, jack, queen, king
+class highCard(Card):
+    def __init__(self, number, image):
+        super().__init__(number, image)
+        self.pointValue = 10
+        
+#Ace has it's own value, therefore own class
+class aceCard(Card):
+    def __init__(self, image):
+        super().__init__(image)
+        self.number = 1
+        self.pointValue = 20
