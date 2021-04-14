@@ -31,21 +31,20 @@ class Card:
         self._image = value
 
 #low cards are 4, 5 ,6 7
-class lowCard(Card):
+class lowCard(self):
     def __init__(self, number, image):
-#The super method does not work anymore, it was discontinued by python. 
-        super().__init__(number, image):
+        Card.__init__(number, image):
         self.pointValue = 5
 
 #high cards are 8, 9 , 10, jack, queen, king
-class highCard(Card):
+class highCard(self):
     def __init__(self, number, image):
-        super().__init__(number, image)
+        Card.__init__(number, image)
         self.pointValue = 10
         
 #Ace has it's own value, therefore own class
-class aceCard(Card):
+class aceCard(self):
     def __init__(self, image):
-        super().__init__(image)
+        Card.__init__(image)
         self.number = 1
         self.pointValue = 20
