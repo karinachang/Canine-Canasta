@@ -33,6 +33,7 @@ class Card:
 #low cards are 4, 5 ,6 7
 class lowCard(Card):
     def __init__(self, number, image):
+#The super method does not work anymore, it was discontinued by python. 
         super().__init__(number, image):
         self.pointValue = 5
 
