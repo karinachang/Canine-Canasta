@@ -1,0 +1,13 @@
+There are four decks of cards, cotaining two suits, spades and hearts.
+There are 8 foundation piles, where the cards go once you make a sequence of 13 cards in a row (A to King).
+Once in the foundation, cards cannot move.
+There are ten tableau tables(where you can move cards around)
+Rows 1 - 3 have 5 cards down and one card up at the front. Rows 5 - 10 have 4 cards down and one card up at the front.
+
+A card may be put on a tableau pile if it is one lower than the old top card OF ANY SUIT
+cards on the tableau that are not under another card can be played at any other tableau pile if it is one higher
+empty spaces can be filed with any card
+groups of cards in sequence may be moced from one tableau column to another if all cards are of the same suit
+
+The remaining cards form stock.
+Each time you click the stock, a card will be dealt to the top of each tableau column.
