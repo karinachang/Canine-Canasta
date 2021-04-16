@@ -1,5 +1,6 @@
-# Canine-Canasta
-A game of canasta made for computer science class.
+# Spider Solitaire 2 Suits
+A game of spider solitaire made for computer science class.
 Please download the following jpegs for each card before playing.
-Button inputs will be GPIO pins 20, 16, 12, 26
+Button inputs will be GPIO pins 20 - left , 16 - right, 12 - up, 26 - down, 14 - select.
+
  
