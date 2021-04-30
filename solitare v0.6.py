@@ -124,8 +124,8 @@ rowSetup()
 
 
 window = Tk()
-WIDTH = 1000
-HEIGHT = 800
+WIDTH = 800
+HEIGHT = 600
 
 ##img = PhotoImage(file=row1[1].fullImg)
 ##l1 = Label(window, width = WIDTH, height = HEIGHT,image = img)
