@@ -7,8 +7,8 @@ deck3 = []
 deck4 = []
 
 window = Tk()
-WIDTH = 90
-HEIGHT = 130
+WIDTH = 70
+HEIGHT = 60
 
 class Card():
     def __init__(self, number, suit, fullImg = None, selectedImg = None, Hidden = True, Selected = False, Chosen = False):
